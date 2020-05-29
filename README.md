@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/roke22/PHP-SSH2-Web-Client/master/demo.gif)
+![](https://raw.githubusercontent.com/roke22/Laravel-ssh-client/master/LaravelSshCient.gif)
 
 ## Laravel Ssh Web Client
 
