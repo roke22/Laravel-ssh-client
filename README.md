@@ -4,9 +4,15 @@
 
 Cliente Web SSH2 en Laravel que usa websockets para conectar a otros servidores por SSH con el cliente web.
 
+Ahora puedes guardar los servidores con sus datos y la contraseña se encripta, de esta forma aunque tengan acceso a la base de datos no podran visualizar la contraseña. Para ello es necesario conocer la contraseña de encriptación que debe ser introducida antes de cada conexion.
+
+Hay mas información en https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/encrypt
+
 Necesitas tener activadas libssh2 instalado en el servidor y hospedarlo en un servidor linux, puedes comprobar libssh2 con "phpinfo()" mas informacion en http://php.net/manual/en/book.ssh2.php
 
 ## INSTALACION
+
+Es necesario tener un dominio con SSL para poder utilizar correctamente la encriptación.
 
 1. Instala libssh2. Si tienes plesk puedes seguir este manual https://support.plesk.com/hc/en-us/articles/213930085-How-to-install-SSH2-extension-for-PHP-
 2. Crea el fichero .env desde el fichero .env-example, se ha añaddo la variable WEBSOCKET_URL para configurar la URL del websocket
@@ -27,6 +33,10 @@ Cliente Web SSH2 esta bajo la licencia MIT, mas informacion en https://opensourc
 ## Laravel Ssh Web Client
 
 Ssh Web Client that use Laravel and websockets to connect to a SSH server by a webclient.
+
+Now you can store the server and the credentials in the app but the password is encrypted with a custom password. Even if someone get the database access can not read the password because the decrypt password is needed and must be inserted before connect.
+
+You have more info at https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/encrypt
 
 You need to have libssh2 installed in your server and host the project on a linux server, you can check libssh2 with a "phpinfo()" more info at http://php.net/manual/en/book.ssh2.php
 
