@@ -1,5 +1,10 @@
 ![](https://raw.githubusercontent.com/roke22/Laravel-ssh-client/master/LaravelSshCient.gif)
 
+## NOW YOU CAN VIEW ANOTHER SSH SESSION
+
+![](https://raw.githubusercontent.com/roke22/Laravel-ssh-client/master/ShareSshConnection.gif)
+
+
 ## Laravel Ssh Web Client
 
 Cliente Web SSH2 en Laravel que usa websockets para conectar a otros servidores por SSH con el cliente web.
