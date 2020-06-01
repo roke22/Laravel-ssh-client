@@ -37,3 +37,4 @@ Route::post('/users/delete/{id}', 'UsersController@deluser')->middleware('auth')
 
 //SSH Client Route
 Route::post('/ssh/{id}', 'SshController@connectssh')->middleware('auth')->name('connectssh');
+Route::get('/sharessh', 'SshController@sharessh')->middleware('auth')->name('sharessh');

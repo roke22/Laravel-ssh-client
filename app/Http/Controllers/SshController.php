@@ -19,4 +19,11 @@ class SshController extends Controller
             'websocketurl' => env("WEBSOCKET_URL", "localhost"),
         ]);
     }
+
+    public function sharessh()
+    {
+        return view('ssh/share-ssh', [
+            'websocketurl' => env("WEBSOCKET_URL", "localhost"),
+        ]);
+    }
 }

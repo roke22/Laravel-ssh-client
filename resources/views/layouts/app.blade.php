@@ -53,6 +53,9 @@
                                     <a class="nav-link" href="{{ route('servers') }}">Servers</a>
                             </li>
                             <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('sharessh') }}">Shared SSH</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{ route('users') }}">Users</a>
                             </li>
                             <li class="nav-item dropdown">
