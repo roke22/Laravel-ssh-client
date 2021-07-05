@@ -13,7 +13,7 @@
         "axios": "^0.19",
         "bootstrap": "^4.5.2",
         "cross-env": "^7.0",
-        "elliptic": ">=6.5.3",
+        "elliptic": ">=6.5.4",
         "jquery": "^3.2",
         "laravel-mix": "^5.0.5",
         "lodash": "^4.17.21",
